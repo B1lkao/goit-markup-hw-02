@@ -169,3 +169,27 @@ body {
  .city:hover {
     color: #2196F3;
  }
+
+ .filter-btn {
+    background-color: #F5F4FA;
+    color: #212121;
+ }
+ .filter-btn:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+ }
+ .categories-item-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+ }
+ .categories-item-content {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+ }
