@@ -157,3 +157,15 @@ body {
     text-decoration: none;
     font-style: normal;
  }
+ .city:visited{
+    color: #FFFFFF;
+ }
+ .address-mail:visited,
+ .address-phone:visited {
+    color: rgba(255, 255, 255, 0.6);
+ }
+ .address-mail:hover,
+ .address-phone:hover,
+ .city:hover {
+    color: #2196F3;
+ }
