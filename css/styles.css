@@ -71,6 +71,8 @@ body {
 
 .button {
     background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -169,7 +171,12 @@ body {
  .city:hover {
     color: #2196F3;
  }
-
+ .filter-btn {
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    cursor: pointer;
+ }
  .filter-btn {
     background-color: #F5F4FA;
     color: #212121;
@@ -192,4 +199,15 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
+ }
+ .nav,
+ .mail-phone,
+ .decision-list,
+ .do-list,
+ .team-list,
+ .address-list,
+ .button-list,
+ .categories-list,
+ .second-categories-list {
+    list-style-type: none;
  }
